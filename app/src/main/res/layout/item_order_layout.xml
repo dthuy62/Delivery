@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:backgroundTint="@color/colorBlue"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txt_shipper_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/semibold"
+            android:text="Trạng thái vận chuyển"
+            android:textColor="#FF6813"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/txt_order_phone"
+            app:layout_constraintTop_toBottomOf="@+id/txt_order_id" />
+
+        <TextView
+            android:id="@+id/txt_order_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/semibold"
+            android:text="#111111"
+            android:textColor="@color/bgBottomNavigation"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/txt_shipper_name"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_order_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Số điện thoại"
+            android:textColor="@color/bgBottomNavigation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_shipper_name" />
+
+        <TextView
+            android:id="@+id/txt_shipper_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Địa chỉ giao hàng"
+            android:textColor="@color/bgBottomNavigation"
+            app:layout_constraintStart_toStartOf="@+id/txt_order_phone"
+            app:layout_constraintTop_toBottomOf="@+id/txt_order_phone" />
+
+        <Button
+            android:id="@+id/btn_shipping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="@color/bgBottomNavigation"
+            android:text="Giao hàng"
+            android:textColor="@color/black"
+            app:cornerRadius="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/txt_shipper_phone"
+            tools:layout_editor_absoluteX="136dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

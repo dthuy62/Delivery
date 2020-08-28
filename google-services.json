@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "1010092656394",
+    "firebase_url": "https://ddth-c9fb8.firebaseio.com",
+    "project_id": "ddth-c9fb8",
+    "storage_bucket": "ddth-c9fb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010092656394:android:d93cae834bbfa994d9dcf3",
+        "android_client_info": {
+          "package_name": "com.example.ddth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010092656394-9k10mu6s3h2reiqdgk37r23s0v7cu28s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ddth",
+            "certificate_hash": "a8f32a8d01c6b98106ca1be24f22e9f4c956e5fc"
+          }
+        },
+        {
+          "client_id": "1010092656394-9iiac11mi537v8ke681mp7rlua9fcbp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe2Z82Sgqgud0L1e7rhT25vCzu2zwsVaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010092656394-9iiac11mi537v8ke681mp7rlua9fcbp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010092656394:android:329eded6e6711712d9dcf3",
+        "android_client_info": {
+          "package_name": "com.example.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010092656394-9iiac11mi537v8ke681mp7rlua9fcbp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe2Z82Sgqgud0L1e7rhT25vCzu2zwsVaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010092656394-9iiac11mi537v8ke681mp7rlua9fcbp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
